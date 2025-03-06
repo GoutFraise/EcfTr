@@ -15,12 +15,23 @@ header{
     color: #00FFFF;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 2vh;
+}
+header>div{
+    width: 40vw;
+    display: flex;
+    align-items: center;
+}
+header>div>i{
+    font-size: 20px;
+    font-weight: 600;
 }
 header>nav{
     display: flex;
-    width: 70vw;
+    font-size: 20px;
+    font-weight: 600;
+    width: 60vw;
     justify-content: space-around;
 }
 header>nav>a{

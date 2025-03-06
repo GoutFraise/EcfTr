@@ -1,11 +1,13 @@
 function getHeader(){
     const header =document.querySelector('header');
+    const div = document.createElement("div")
     const i =document.createElement("i")
     i.className= "fa-solid fa-martini-glass-citrus"
-    header.appendChild(i)
+    div.appendChild(i)
     let h1 =document.createElement("h1")
     h1.textContent="GretaDrink"
-    header.appendChild(h1)
+    div.appendChild(h1)
+    header.appendChild(div)
     const nav = document.createElement("nav");
     let a =document.createElement("a")
     a.setAttribute("href","./index.html")
